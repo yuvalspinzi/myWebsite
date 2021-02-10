@@ -1,0 +1,199 @@
+/*ALL*/
+.bodies {
+  background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+.nav-item{
+  font-size: 20px;
+  color:black
+}
+
+
+/*HOME*/ 
+
+/*pictures*/
+    .container {
+      height: 150px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .left,
+    .center,
+    .right {
+      min-height: 75px;
+      width: 450px;
+    }
+    
+    #center {
+      align-items: flex-start;
+    }
+    /*text*/
+    .homeText {
+      font-size: 220%;
+      text-align: center;
+      color:#7e124d;
+      position: relative;
+      top: 0px;
+      font-family:'Raleway', sans-serif;
+    }
+    
+    /*button*/
+    .btn{
+      font-family:'Raleway', sans-serif;
+      margin-top: 19%;
+      margin-left: 43%;
+    }
+  
+/*Baking*/
+/*text*/
+.hobbiesText{
+  font-family:'Raleway', sans-serif;
+  font-size: 120%;
+  font-weight: 600;
+  text-align: center;
+  
+}
+
+/*gallery*/
+.table {
+  width: 80%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.bakingContain {
+  position: relative;
+  width: 80%;
+}
+
+.fadePics {
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 80%;
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:blanchedalmond;
+}
+
+.bakingContain:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  font-family:'Raleway', sans-serif;
+  color: #7e124d;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*CONTACTME*/
+.contactForm {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #800551;
+  text-align: center;
+  font-family: monospace;
+  margin-top: 3%;
+}
+
+
+h1 {
+  font-family: 'Dancing Script';
+  text-align: center;
+}
+
+textarea, input, button {
+  line-height: 1.5;
+  border: 0;
+  outline: none;
+}
+
+#body, #subject{
+  font-size: 120%;
+  font-family:'Raleway', sans-serif;
+}
+label{
+  font-family:'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+
+/*My Family*/
+  .FamilyContainer {
+      height: 150px;
+      display: flex;
+      justify-content: center;
+    }
+    .pic1 {
+      width: 355px;
+    }
+    .pic2 {
+      min-height: 75px;
+      width: 450px;
+    }
+    .pic3,
+    .pic5{
+      width: 197px;
+    }
+    .pic4 {
+      width: 164.5px;
+    }
+    #familypics {
+      align-items: flex-start;
+    }
+
+    .FamilyText{
+      margin-top: 115px;
+      margin-left: 20px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 120%;
+      font-family:'Raleway', sans-serif;
+    }
+
+
+    /*EDUCATION*/
+    .year{
+      font-size: 180%;
+    }
+    .school{
+      font-family:'Raleway', sans-serif;
+      text-align: center;
+      font-size: 140%;
+    }
+    .edu{
+      margin-top: 20px;
+    }
+
+    /*ABOUT*/
+    .about-text{
+      font-family:'Raleway', sans-serif;
+      font-size: 140%;
+      text-align: center;
+      margin-top: 10px;
+
+
+    }
